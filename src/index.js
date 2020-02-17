@@ -3,6 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import { ApolloProvider } from 'react-apollo'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const URI = 'https://zemoga-test-api.now.sh/graphql'
 const client = new ApolloClient({

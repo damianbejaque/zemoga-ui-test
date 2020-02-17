@@ -9,15 +9,16 @@ const GroupCards = () => (
       ({ loading, error, data }) => {
         if (loading) return <p>Loading...</p>
         if (error) return <p>Error...</p>
-        console.log(data)
         const information = data.getThumbs.filter(da => !da.isMain)
         return (
           <GroupCardStyle>
+
             {information.map((item, index) => {
               return (
-                <Card key={index} margin='40px' {...item} />
+                <Card className='col-4' key={index} {...item} />
               )
             })}
+
           </GroupCardStyle>
         )
       }

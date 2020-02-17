@@ -78,5 +78,31 @@ export const MainCard = styled.div`
     line-height: 48px;
     font-weight: 400;
 }
+.votes {
+    align-items: center;
+    display: flex;
 }
+}
+`
+
+export const VoteUp = styled.div`
+background: #1cbab4;
+font-size: 29px;
+line-height: 35px;
+padding: 5px;
+background: #1cbab2;
+  color: white;
+    line-height: 24px;
+width: ${props => props.width}%;
+`
+export const VoteDown = styled.div`
+  background: #ffad1b;
+  font-size: 29px;
+  line-height: 35px;
+  padding: 5px;
+  background: #ffad1d;
+  color: white;
+  line-height: 24px;
+
+  width: ${props => props.width}%;
 `

@@ -7,10 +7,12 @@ const Home = () => {
   return (
     <>
       <Main />
-      <Container>
-        <Information />
-        <GroupCards />
-      </Container>
+      <div className='container'>
+        <div className='row'>
+          <Information />
+          <GroupCards />
+        </div>
+      </div>
     </>
   )
 }
