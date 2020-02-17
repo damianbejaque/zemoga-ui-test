@@ -1,13 +1,8 @@
 # Welcome to Rule of Thumbs!
-Se utiliza stylus para el manejo de los estilos en los distintos archivos
-para el correcto funcionamiento en entorno local luego de descargar los archivos correr los siguientes comandos
-**npm install
-npm run dev**
-Por defecto se iniciara en la ruta http://localhost:8080/
+Se utiliza stylus para el manejo de los estilos en los distintos archivos para el correcto funcionamiento en entorno local luego de descargar los archivos correr los siguientes comandos **npm install npm run dev** por defecto se iniciara en la rut http://localhost:8080/
 # Deploy
-Para ver el proyecto en estado deploy fue realizado con now
-Por medio de la URL "https://zemoga-ui-test.now.sh"
-y el api a consumir fue desarrollado en Graphql y se encuentra en "https://zemoga-test-api.now.sh/"
+Fue realizado con now, para ver el proyecto en estado deploy por medio de la URL "https://zemoga-ui-test.now.sh" puede acceder
+y el api a consumir fue desarrollado en Graphql y se encuentra en "https://zemoga-test-api.now.sh/graphql"
 # Test
 Para las pruebas se implemento cypress 
 1. Verificacion del funcionamiento del aplication
