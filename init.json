@@ -1,0 +1,51 @@
+{
+  "initialState":[
+    {
+        "id": 1,
+        "name": "Pope Francis",
+        "description": "He's talking though on clergy sexual abuse, but is he just another papal pervert protector? (thumbs down) or a true pedophile punishing pontiff (thumbs up)",
+        "isMain": true,
+        "votesUp": 50,
+        "votesDown": 50,
+        "background": "https://media.globalcitizen.org/thumbnails/68/24/6824ecb8-c817-4216-99d5-26ad16fc1082/cutepope.jpg__1264x568_q85_crop_subsampling-2.jpg"
+
+      },
+      {
+        "id": 2,
+        "name": "Kanye West",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "isMain": false,
+        "votesUp": 50,
+        "votesDown": 50,
+        "background": "https://estaticos.elperiodico.com/resources/jpg/2/9/kanye-west-ahora-prefiere-llamarse-1538377948992.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Mark Zuckerberg",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "isMain": false,
+        "votesUp": 50,
+        "votesDown": 50,
+        "background": "https://okdiario.com/img/2019/07/25/lee-las-mejores-frases-de-mark-zuckerberg-655x368.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Cristina Fernández de Kitchner",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "isMain": false,
+        "votesUp": 50,
+        "votesDown": 50,
+        "background": "https://www.eldesconcierto.cl/wp-content/uploads/2017/06/GettyImages-463214634-1024x752.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Malala Yousafzai",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "isMain": false,
+        "votesUp": 50,
+        "votesDown": 50,
+        "background": "https://cdn2.actitudfem.com/media/files/styles/big_img/public/images/2013/10/malala_01.jpg"
+
+      }
+    ]
+}

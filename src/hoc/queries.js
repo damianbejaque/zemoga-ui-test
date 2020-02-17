@@ -1,0 +1,32 @@
+import gql from 'graphql-tag'
+import { graphql } from 'react-apollo'
+
+const GET_THUMBS = gql`
+  query {
+    getThumbs{
+    id
+    name
+    description
+    isMain
+    votesUp
+    votesDown
+    background
+    }
+  }
+`
+const GET_IS_MAIN = gql`
+query {
+  getIsMain{
+  id
+  name
+  description
+  isMain
+  votesUp
+  votesDown
+  background
+  }
+}
+`
+
+export const allThumbs = GET_THUMBS
+export const mainThumb = GET_IS_MAIN
