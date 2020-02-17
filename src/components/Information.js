@@ -1,3 +1,5 @@
+/* Componente Presentacional para mostar informacion que ira en la mitad de la pagina home
+*/
 import React from 'react'
 import { Info } from '../styles/components/Information'
 const Information = () => (
@@ -7,7 +9,7 @@ const Information = () => (
         <p>Speak out. Be heard.</p>
         <strong>Be counted</strong>
       </div>
-      <div className='information-header-right'>
+      <div className='information-header-right '>
         <p>Rule of Thumb is a crowd sourced court of public opinion where anyone and everyone can speak out and speak freely.
           It's easy. You share your opinion we analyze and put the data in a public report.
         </p>

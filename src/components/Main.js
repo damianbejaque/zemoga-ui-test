@@ -1,9 +1,13 @@
+/* Componente main que contendra toda la parte principal de la pagina home, la cual trae la informacion por base de datos utilizando el query
+mainThumb que identifica el objeto con la propiedad 'isMain: true'
+*/
 import React from 'react'
 import Card from './Card'
 import { MainContent, PrincipalImage } from '../styles/components/Main'
 import { mainThumb } from '../hoc/queries'
 import { Query } from 'react-apollo'
 const Main = () => (
+
   <Query query={mainThumb}>
     {
       ({ loading, error, data }) => {
@@ -11,7 +15,7 @@ const Main = () => (
         if (error) return <p>Error...</p>
         const information = data.getIsMain
         return (
-          <MainContent>
+          <MainContent className='col-12'>
             <PrincipalImage background={`url(${information.background})`}>
               <div className='panel-card'>
                 <Card isMain={information.isMain} {...information} />
@@ -25,8 +29,8 @@ const Main = () => (
         )
       }
     }
-
   </Query>
+
 )
 
 export default Main

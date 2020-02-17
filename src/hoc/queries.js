@@ -1,3 +1,5 @@
+/* Queries de la base de datos por graphql
+*/
 import gql from 'graphql-tag'
 
 const GET_THUMBS = gql`

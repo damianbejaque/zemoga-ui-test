@@ -1,8 +1,14 @@
+/* Pagina principal de Login
+*/
 import React from 'react'
+import Main from '../components/Main'
 
 const Login = () => {
   return (
-    <h1> Login </h1>
+    <>
+      <Main />
+      <h1>Login En Construccion </h1>
+    </>
   )
 }
 export default Login

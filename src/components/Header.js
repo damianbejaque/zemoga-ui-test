@@ -1,3 +1,5 @@
+/* Header basico para que aparezca en todas las paginas del aplicativo
+*/
 import React from 'react'
 import { Head, Title, Menu, Link, MdSearch } from '../styles/components/Header'
 

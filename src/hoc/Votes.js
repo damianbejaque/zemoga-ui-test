@@ -1,3 +1,5 @@
+/* Mutations para agregar un voto positivo o negativo a la base de datos
+*/
 import React from 'react'
 import { gql } from 'apollo-boost'
 import { Mutation } from 'react-apollo'

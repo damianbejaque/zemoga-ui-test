@@ -1,3 +1,5 @@
+/* Footer basico para que aparezca en todas las paginas del aplicativo
+*/
 import React from 'react'
 import { FooterItem, Politics, Media } from '../styles/components/Footer'
 import { IoLogoFacebook, IoLogoTwitter } from 'react-icons/io'

@@ -1,3 +1,7 @@
+/*
+Componente GroupCard el cual utiliza la funcion Query para utilizar la informacion de la base de datos
+y posteriormente mostrar los resultados
+*/
 import React from 'react'
 import Card from './Card'
 import { Query } from 'react-apollo'
@@ -15,7 +19,7 @@ const GroupCards = () => (
 
             {information.map((item, index) => {
               return (
-                <Card className='col-4' key={index} {...item} />
+                <Card key={index} {...item} />
               )
             })}
 

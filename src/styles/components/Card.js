@@ -8,16 +8,16 @@ export const MainCard = styled.div`
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  height: 450px;
   margin: 0 40px;
     width: 500px;
+  height: 450px;
   &{
 .card {
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: space-between;
     padding: 35px;
+    justify-content: space-between;
 }
 
 .card-title {
@@ -37,8 +37,8 @@ export const MainCard = styled.div`
 
 .card-options {
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
 }
 
 .card-options > div {
@@ -46,8 +46,8 @@ export const MainCard = styled.div`
     align-items: center;
     display: flex;
     font-size: 30px;
-    height: 80px;
     width: 250px;
+    height: 80px;
 }
 
 
@@ -81,6 +81,21 @@ export const MainCard = styled.div`
 .votes {
     align-items: center;
     display: flex;
+}
+.newVote{
+  background: transparent;
+    border: 0;
+    box-shadow: 0px 0px 1px 1px lightgrey;
+    cursor: pointer;
+    color: white;
+    margin: 0px 10px;
+    padding: 5px 15px;
+}
+.submitVote{
+  display: flex;
+  &{
+    width: 100px;
+  }
 }
 }
 `

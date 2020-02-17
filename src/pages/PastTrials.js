@@ -1,8 +1,14 @@
+/* Pagina principal de PastTrials
+*/
 import React from 'react'
+import Main from '../components/Main'
 
-const PastTrials = () => {
+const HowWorks = () => {
   return (
-    <h1> PastTrials </h1>
+    <>
+      <Main />
+      <h1>PastTrials En Construccion </h1>
+    </>
   )
 }
-export default PastTrials
+export default HowWorks
